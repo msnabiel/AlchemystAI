@@ -1,0 +1,53 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Helper docs (not for submission)
+SUBMISSION.md
+PROJECT_SUMMARY.md
